@@ -109,3 +109,5 @@ pytest-bdd generate tests/features/banco.feature > tests/test_consulta_banco.py
 - Código pronto para integração contínua (CI/CD)
 
 ---
+
+Feito com ❤️ por Rafa | Desenvolvedor de sistemas e automações
