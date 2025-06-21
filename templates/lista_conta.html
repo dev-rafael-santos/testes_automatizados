@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Contas</title></head>
+    <body>
+        <h1>Contas:</h1>
+        <table>
+            <tr>
+            <td>Número</td>
+            <td>Saldo</td>
+            </tr>
+            {% for conta in contas %}
+            <tr>
+            <td>{{conta['numero']}}</td>
+            <td>{{conta['saldo']}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

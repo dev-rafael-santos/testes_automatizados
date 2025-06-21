@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Consultar conta</title></head>
+<body>
+    <form id="form_consulta_conta" method="POST">
+        <label>Número da conta:</label>
+        <input name="numero_conta" type="text" autocomplete="off" />
+        <input type="submit" />
+    </form>
+
+    {% if saldo %}
+    <p>Saldo: {{ saldo }}</p>
+    {% endif %}
+
+    {% if conta_nao_encontrada %}
+    <p>Conta não encontrada!</p>
+    {% endif %}
+</body>
+</html>
